@@ -1,0 +1,73 @@
+<html>
+ <head>
+   <title>site1</title>
+   <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div class="heder">
+   <h1>motocycle</h1>
+  </div>
+  <form>
+   <fieldset>
+    <legend>
+     personel iformation<br>
+     </legend>
+   <label>
+      username
+   </label>
+         <input type="text" name="username" maxlength="10"><br>
+        <label>
+      email  
+   </label>
+    <input type="text" name="email"><br>
+    
+   <label>
+    password
+   </label>
+   <input type="password" name=password ><br>
+   <label>phone number</label>
+     <input type="number" placeholder="type your number"><br>
+     
+    </fieldset></div>
+   <label>sex</label>
+   <select  name="sex">
+    <option value="1">male</option>
+    <option value="2">femal</option>
+   </select><br>
+   <label>age</label>
+    <select name="age">
+      <option value="1">18-20</option>
+      <option value="2">20-22</option>
+      <option value="3">22-24</option>
+    </select><br>
+    <input type="message"  size="50"><br>
+    
+   
+   <input type="checkbox">
+   <label>
+    I agree the condition
+   </label><BR>
+   <input type="submit" value="send information">
+  </form>
+  <table border="1">
+   <caption><ins>pack prices</ins></caption>
+    <tr>
+      <td>pack1</td>
+      <td>pack2</td>
+      <td>pack3</td>
+    </tr>
+     <tr>
+      <td>1T</td>
+      <td>2T</td>
+      <td>3T</td>
+    </tr>
+      <tr backgroundcolor="EEE">
+      <td>10 dollars</td>
+      <td>15 dollars</td>
+      <td>20 dollars</td>
+    </tr>
+  </table>
+  <a href="https://www.google.com" target="_blank">google</a> <br>
+  <input type="mailto" value="contact us">
+ </body>
+</html>
